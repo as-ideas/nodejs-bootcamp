@@ -17,5 +17,15 @@ function readFromFile(filePath) {
     
 }
 
+function deleteFile(filePath) {
+    try {
+        fs.unlinkSync(filePath)
+        //file removed
+      } catch(err) {
+        console.error(err)
+      }
+}
+
 exports.writeToFile = writeToFile;
 exports.readFromFile = readFromFile;
+exports.deleteFile = deleteFile;
