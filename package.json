@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-bootcamp",
+  "version": "1.0.0",
+  "description": "starter repo for js and node related stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/as-ideas/nodejs-bootcamp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/as-ideas/nodejs-bootcamp/issues"
+  },
+  "homepage": "https://github.com/as-ideas/nodejs-bootcamp#readme",
+  "dependencies": {
+    "mocha": "^6.2.1"
+  }
+}
