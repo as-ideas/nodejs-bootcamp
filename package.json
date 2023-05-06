@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/as-ideas/nodejs-bootcamp#readme",
   "dependencies": {
-    "mocha": "^6.2.1"
+    "mocha": "^6.2.3"
   }
 }
